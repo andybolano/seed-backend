@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "agent": "jarvis",
+  "permissions": {
+    "deny": [
+      "Agent(general-purpose)",
+      "Agent(Explore)",
+      "Agent(Plan)",
+      "Agent(claude-code-guide)"
+    ]
+  }
+}
